@@ -5603,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@MyLibrary:7.5_3.5_p5.0"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 167.64 80.3148 0)
 			(effects
 				(font
@@ -6015,7 +6015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "@MyLibrary:10.5_5.0_p7.5"
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"
 			(at 237.49 86.36 0)
 			(effects
 				(font
@@ -6083,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@MyLibrary:7.5_3.5_p5.0"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 208.28 118.4148 0)
 			(effects
 				(font
@@ -7998,7 +7998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "@MyLibrary:7.5_3.5_p5.0"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 244.8052 128.27 0)
 			(effects
 				(font
@@ -9882,7 +9882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@MyLibrary:7.5_3.5_p5.0"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 133.35 108.2548 0)
 			(effects
 				(font
@@ -10362,7 +10362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@MyLibrary:7.5_3.5_p5.0"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 118.11 77.7748 0)
 			(effects
 				(font
