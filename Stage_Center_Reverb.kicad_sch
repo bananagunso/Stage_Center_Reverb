@@ -3093,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 137.16) (xy 81.28 147.32)
+			(xy 81.28 144.78) (xy 81.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3293,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 149.86) (xy 91.44 154.94)
+			(xy 91.44 157.48) (xy 91.44 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3443,17 +3443,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 76.2 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4420d146-3338-4cd1-9d81-6ccdd9f1e7f3")
-	)
-	(wire
-		(pts
-			(xy 87.63 137.16) (xy 81.28 137.16)
+			(xy 87.63 144.78) (xy 81.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3610,6 +3600,16 @@
 			(type default)
 		)
 		(uuid "5292be12-c9b8-40b9-8565-75f45bd235b4")
+	)
+	(wire
+		(pts
+			(xy 88.9 124.46) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54638b03-aa57-43b5-a1f0-717d74de634f")
 	)
 	(wire
 		(pts
@@ -3863,16 +3863,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 95.25 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0eed9d-e22d-4711-aeae-d964d88a5422")
-	)
-	(wire
-		(pts
 			(xy 187.96 132.08) (xy 196.85 132.08)
 		)
 		(stroke
@@ -3880,6 +3870,16 @@
 			(type default)
 		)
 		(uuid "7f0c79e1-3259-4d37-b357-44188094a4ee")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 76.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd275aa-79b1-4f49-919b-13b25807e9db")
 	)
 	(wire
 		(pts
@@ -4223,7 +4223,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 128.27) (xy 95.25 137.16)
+			(xy 95.25 124.46) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 152.4) (xy 81.28 152.4)
+			(xy 76.2 160.02) (xy 81.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5101,7 +5101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df8938e-f16c-4912-9c7d-600ede07e6e4")
-		(property "Reference" "R11"
+		(property "Reference" "RV4"
 			(at 210.82 128.2699 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 		(instances
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "R11")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -5369,6 +5369,73 @@
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ced668-bc98-474c-8e70-dc17f73ed5f7")
+		(property "Reference" "#PWR02"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 88.773 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b1070ba-19fd-42cc-ac58-06e69a32db86")
+		)
+		(instances
+			(project "Stage_Center_Reverb"
+				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6890,74 +6957,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "480baed6-6ec7-42f1-9904-2f433efb8db2")
-		(property "Reference" "R15"
-			(at 88.9 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 88.9 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 88.9 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd92d328-d7a0-4758-91fc-b3dcf8cf4ba7")
-		)
-		(pin "1"
-			(uuid "8e7a331c-e45a-4f8d-9e9b-29bc7577f13a")
-		)
-		(instances
-			(project "Stage_Center_Reverb"
-				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 191.77 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7171,7 +7170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cab6041-b06c-4f11-ba7f-827523a52961")
-		(property "Reference" "R10"
+		(property "Reference" "RV3"
 			(at 172.72 87.6299 0)
 			(effects
 				(font
@@ -7228,7 +7227,7 @@
 		(instances
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "R10")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7312,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67945a13-c21f-4b99-92e3-4f56a2e10ff3")
 		(property "Reference" "#PWR08"
 			(at 81.28 129.54 0)
@@ -7325,7 +7323,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 83.82 124.4599 0)
+			(at 77.216 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8525,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 86.36 149.86 0)
+		(at 86.36 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8536,7 +8534,7 @@
 		(dnp no)
 		(uuid "a14caf7f-f609-491c-96a3-ab87df1477f5")
 		(property "Reference" "SW3"
-			(at 86.614 144.018 0)
+			(at 86.614 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8542,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 86.36 143.51 0)
+			(at 86.36 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,15 +8551,6 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -8570,8 +8559,17 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "~"
+			(at 86.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" "Switch, single pole double throw"
-			(at 86.36 149.86 0)
+			(at 86.36 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8801,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 91.44 137.16 0)
+		(at 91.44 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8812,7 +8810,7 @@
 		(fields_autoplaced yes)
 		(uuid "acd41474-5eec-475a-ad63-359ed41143ad")
 		(property "Reference" "D5"
-			(at 89.8525 130.81 0)
+			(at 89.8525 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +8818,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 89.8525 133.35 0)
+			(at 89.8525 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,7 +8826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 137.16 0)
+			(at 91.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,7 +8835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 137.16 0)
+			(at 91.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +8844,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 91.44 137.16 0)
+			(at 91.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8853,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 137.16 0)
+			(at 91.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9018,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 91.44 154.94 0)
+		(at 91.44 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9029,7 +9027,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf6501b7-d133-4fc0-872f-f61f41671ac6")
 		(property "Reference" "#PWR09"
-			(at 91.44 160.02 0)
+			(at 91.44 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,7 +9036,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 91.313 158.75 0)
+			(at 91.313 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,7 +9045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 156.21 0)
+			(at 91.44 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 156.21 0)
+			(at 91.44 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +9063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 91.44 154.94 0)
+			(at 91.44 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +9437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d519ddb1-72a5-4c78-a238-220fc00954a9")
-		(property "Reference" "R7"
+		(property "Reference" "RV2"
 			(at 127 146.05 90)
 			(effects
 				(font
@@ -9494,7 +9492,7 @@
 		(instances
 			(project ""
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "R7")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -9851,6 +9849,78 @@
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 88.9 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e7b7a5-b255-4aec-88a9-d80144005fc1")
+		(property "Reference" "RV1"
+			(at 91.44 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 91.44 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c507b6e0-4b35-43dc-8ece-9e3e40380fd3")
+		)
+		(pin "2"
+			(uuid "2100bc50-b174-4f28-be61-e4c4be7e4536")
+		)
+		(pin "3"
+			(uuid "9d898836-57d8-4d22-af78-02c8ba455914")
+		)
+		(instances
+			(project ""
+				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
