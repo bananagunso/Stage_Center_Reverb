@@ -2970,6 +2970,12 @@
 		(uuid "4bb363b7-c0c7-407e-aea0-ee1f203e416b")
 	)
 	(junction
+		(at 95.25 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea1b273-149d-4390-9d9d-8919c5509d59")
+	)
+	(junction
 		(at 196.85 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4213,6 +4219,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 128.27) (xy 95.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49a9423-1418-4f55-8d0a-bf8ba371f713")
+	)
+	(wire
+		(pts
 			(xy 186.69 143.51) (xy 179.07 143.51)
 		)
 		(stroke
@@ -4253,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 124.46) (xy 95.25 144.78)
+			(xy 95.25 124.46) (xy 95.25 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4550,6 +4566,16 @@
 			(type default)
 		)
 		(uuid "d40d8f13-9d55-47f4-bd0b-e6fcb12411a6")
+	)
+	(wire
+		(pts
+			(xy 95.25 128.27) (xy 95.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ebb304-0b7c-4b30-b63d-84847804b8a5")
 	)
 	(wire
 		(pts
@@ -5416,73 +5442,6 @@
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 88.9 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17ced668-bc98-474c-8e70-dc17f73ed5f7")
-		(property "Reference" "#PWR02"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 88.773 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 88.9 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b1070ba-19fd-42cc-ac58-06e69a32db86")
-		)
-		(instances
-			(project "Stage_Center_Reverb"
-				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9972,7 +9931,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 88.9 128.27 180)
+		(at 88.9 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9980,7 +9939,7 @@
 		(dnp no)
 		(uuid "e1e7b7a5-b255-4aec-88a9-d80144005fc1")
 		(property "Reference" "VR15"
-			(at 91.44 126.9999 0)
+			(at 90.1701 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9989,7 +9948,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 91.44 129.5399 0)
+			(at 87.6301 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
