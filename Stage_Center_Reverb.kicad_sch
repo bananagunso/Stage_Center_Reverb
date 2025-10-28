@@ -6526,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25V1000uF"
+		(property "Value" "35V1000uF"
 			(at 96.52 57.4039 0)
 			(effects
 				(font
@@ -6535,7 +6535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -9407,7 +9407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d519ddb1-72a5-4c78-a238-220fc00954a9")
-		(property "Reference" "R7"
+		(property "Reference" "VR7"
 			(at 127 146.05 90)
 			(effects
 				(font
@@ -9462,7 +9462,7 @@
 		(instances
 			(project ""
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "R7")
+					(reference "VR7")
 					(unit 1)
 				)
 			)
@@ -9979,7 +9979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1e7b7a5-b255-4aec-88a9-d80144005fc1")
-		(property "Reference" "R15"
+		(property "Reference" "VR15"
 			(at 91.44 126.9999 0)
 			(effects
 				(font
@@ -10036,7 +10036,7 @@
 		(instances
 			(project ""
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "R15")
+					(reference "VR15")
 					(unit 1)
 				)
 			)
@@ -10403,7 +10403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25V1000uF"
+		(property "Value" "35V1000uF"
 			(at 96.52 47.2439 0)
 			(effects
 				(font
@@ -10412,7 +10412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 92.71 45.72 0)
 			(effects
 				(font
