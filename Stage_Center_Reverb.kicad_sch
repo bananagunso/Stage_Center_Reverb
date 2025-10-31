@@ -5236,7 +5236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "560k"
 			(at 119.38 114.2999 0)
 			(effects
 				(font
@@ -9999,7 +9999,7 @@
 				)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1500pF"
 			(at 129.54 104.14 90)
 			(effects
 				(font
