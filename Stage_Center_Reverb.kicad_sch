@@ -2958,12 +2958,6 @@
 		(uuid "3f19178d-1d9c-41cd-8d70-f7590dc084b0")
 	)
 	(junction
-		(at 234.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42cfb232-2afd-41e1-bec7-a0ce31813f7c")
-	)
-	(junction
 		(at 92.71 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3219,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 118.11) (xy 243.84 118.11)
+			(xy 223.52 118.11) (xy 243.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4039,16 +4033,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 118.11) (xy 234.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9368e0ec-2837-4b1b-9b6b-54a33f9cc415")
-	)
-	(wire
-		(pts
 			(xy 80.01 111.76) (xy 80.01 118.11)
 		)
 		(stroke
@@ -4149,16 +4133,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 137.16) (xy 234.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3d38f9-346e-4ae4-9111-36e51d278d0d")
-	)
-	(wire
-		(pts
 			(xy 154.94 81.28) (xy 160.02 81.28)
 		)
 		(stroke
@@ -4196,16 +4170,6 @@
 			(type default)
 		)
 		(uuid "9f5189cf-fa5c-4f90-b46b-5c5c8458ddaa")
-	)
-	(wire
-		(pts
-			(xy 158.75 121.92) (xy 158.75 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05ccb34-6e53-4eb3-9ced-c81f1b32baa9")
 	)
 	(wire
 		(pts
@@ -4409,7 +4373,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 121.92) (xy 161.29 143.51)
+			(xy 158.75 121.92) (xy 158.75 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4509,16 +4473,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 147.32) (xy 232.41 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0fc0d8-c94c-43e8-be8a-8ff0ee79bf35")
-	)
-	(wire
-		(pts
 			(xy 196.85 119.38) (xy 193.04 119.38)
 		)
 		(stroke
@@ -4539,7 +4493,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 172.72 143.51)
+			(xy 158.75 143.51) (xy 172.72 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5013,73 +4967,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 232.41 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07182e83-5b42-41ed-a47c-ebe2d08db9b9")
-		(property "Reference" "#PWR020"
-			(at 232.41 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 232.283 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 232.41 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d63cf10-bc31-4e61-b1e4-71e77da92298")
-		)
-		(instances
-			(project "Stage_Center_Reverb"
-				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 279.4 86.36 0)
 		(unit 1)
@@ -5212,6 +5099,76 @@
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 156.21 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0edf1f2b-3767-46ea-9bfc-7e9aec2a24de")
+		(property "Reference" "J3"
+			(at 161.29 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Tank"
+			(at 161.29 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08e50bc-458f-4f0c-9bfd-832558d365d9")
+		)
+		(pin "2"
+			(uuid "4e0bf4bc-732f-4ac9-a373-b8cc7055e58b")
+		)
+		(instances
+			(project ""
+				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5760,79 +5717,6 @@
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 158.75 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f29164b-96a6-46d7-9487-975e55921c27")
-		(property "Reference" "J3"
-			(at 163.83 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Tank"
-			(at 163.83 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 158.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de2951a7-3b4b-4f54-ad12-d3ded691080e")
-		)
-		(pin "3"
-			(uuid "0a1313ef-969b-48fc-88a6-09b2216d46dc")
-		)
-		(pin "2"
-			(uuid "0aa577e0-5530-4b42-8ae5-d126b33054b9")
-		)
-		(instances
-			(project ""
-				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7065,77 +6949,6 @@
 			(project "Stage_Center_Reverb"
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 234.95 142.24 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51db560a-0b20-4e55-99b5-75e76d48a26d")
-		(property "Reference" "SW2"
-			(at 237.49 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "kill"
-			(at 237.49 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 234.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 234.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1815d10e-5401-409c-a5eb-0a87fb376fed")
-		)
-		(pin "3"
-			(uuid "02e0cbe3-1c30-49e0-a484-dc7277d07673")
-		)
-		(pin "2"
-			(uuid "ed83fcda-1eee-43c1-a729-ce8a5fb6f7e8")
-		)
-		(instances
-			(project "Stage_Center_Reverb"
-				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9704,73 +9517,6 @@
 				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
 					(reference "2VR1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 158.75 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e091c635-2b00-43a3-95c3-03d226758f32")
-		(property "Reference" "#PWR014"
-			(at 158.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 158.623 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61ee8b15-0477-4687-b9b0-08a58a6b5767")
-		)
-		(instances
-			(project "Stage_Center_Reverb"
-				(path "/bb175fc0-f13d-4415-8630-2bbdc9c8566e"
-					(reference "#PWR014")
-					(unit 1)
 				)
 			)
 		)
